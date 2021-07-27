@@ -36,7 +36,7 @@ public class FrontControllerServletV1 extends HttpServlet {
             response.setStatus(HttpServletResponse.SC_NOT_FOUND);
             return;
         }
-        //오버라이드 된 메서드 실행행
+        //오버라이드 된 메서드 실행
         controller.process(request, response);
 
     }
